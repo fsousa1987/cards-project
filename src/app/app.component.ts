@@ -8,7 +8,8 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
 
-  buttonClicked() {
-    console.log('buttonClicked!');
+  onCardButtonClicked() {
+    console.log('onCardButtonClicked!');
+    // Chamada HTTP
   }
 }
