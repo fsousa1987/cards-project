@@ -1,0 +1,6 @@
+<button
+  class="button"
+  [class]="{ 'button--white': buttonStyle === 'white', 'button--purple': buttonStyle === 'purple' }"
+  (click)="onButtonClicked()"
+  [disabled]="isDisabled">{{ buttonText }}
+</button>
